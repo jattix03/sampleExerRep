@@ -1,4 +1,4 @@
 name = input("What is your name? ")
-age = input("How old are you?")
-address = input("Where do you live?")
-print(name + "is" + age + " years old and lives in " + address+".")
+age = int(input("How old are you? ")) # int() allows us to do math!
+year = 2026 - age
+print("Hello " + name + ", you were born around " + str(year) + ".")
